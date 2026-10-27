@@ -1,0 +1,7 @@
+
+body{
+    background-color: black;
+}
+  .big-pumpkin {
+  font-size: 5rem; /* Scales relative to base font size */
+  }
