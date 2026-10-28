@@ -1,7 +1,20 @@
 
-body{
-    background-color: black;
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 139, 0);
+    text-align: center;
 }
-  .big-pumpkin {
-  font-size: 5rem; /* Scales relative to base font size */
-  }
+
+h1 {
+    margin: 0;
+    font-family: "Rubik Wet Paint", system-ui;
+    font-weight: 400;
+ 	font-size: clamp(3.75rem, 2.5rem + 6.25vw, 5rem);
+line-height: 2;
+    line-height: 2;
+}
